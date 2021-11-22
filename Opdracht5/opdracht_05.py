@@ -1,4 +1,4 @@
-ef foodsel(foodsel):
+def foodsel(foodsel):
     print("Beste Eten",foodsel)
 foodsel("Pizza")
 foodsel("Kip")
