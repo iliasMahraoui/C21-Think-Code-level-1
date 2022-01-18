@@ -1,8 +1,12 @@
-age = 17
+print("Hallo")
 
-if conditie:
-    print(True)
+name = input("Hoe heet jij?")
+print("Aangenaam kennis te maken!,",name)
+
+
+answer = input("Maar jij bent geen ilias, Jij mag niet verdergaan!")
+
+if answer == "ilias":
+	print("Welkom Ilias")
 else:
-    print(False)
-
-    17<=3*5+2
+	print("Ik zou u willen verzoeken te vertrekken!!!")
